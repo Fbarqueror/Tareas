@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="eed10c52-b550-4d28-be8a-cc1b1bf418a7" ChangeDateTime="10/07/2021 00:09:50">
+    <Property Name="ElementName" Value="[dbo].[Canton].[IdCanton]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Canton]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdTipoIdentificacion" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="82d65a7d-2642-4254-bcbc-aef42fd8d2e2" ChangeDateTime="10/07/2021 00:09:56">
+    <Property Name="ElementName" Value="[dbo].[Canton].[NombreCanton]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Canton]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Descripcion" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9cc3e48b-467b-4649-b947-65443472b397" ChangeDateTime="10/07/2021 00:10:56">
+    <Property Name="ElementName" Value="[exp].[Empleado].[IdEmpleado]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[exp].[Empleado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdTipoIdentificacion " />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7fbb6a4a-67ee-448e-8273-bdd2279fb7bd" ChangeDateTime="10/07/2021 00:11:05">
+    <Property Name="ElementName" Value="[exp].[Empleado].[Descripcion.]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[exp].[Empleado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Descripcion" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="52f56fde-1d3b-4919-91e3-890bd0838984" ChangeDateTime="10/07/2021 00:14:37">
+    <Property Name="ElementName" Value="[exp].[TipoIdentificacion].[Descripcion]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[exp].[TipoIdentificacion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cedula" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fb1dac22-f672-4222-b1af-9144d2759656" ChangeDateTime="10/07/2021 00:20:15">
+    <Property Name="ElementName" Value="[exp].[TipoIdentificacion].[Descripcion]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[exp].[TipoIdentificacion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cedula" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9663e5e4-84de-4098-bd04-50cc6be810eb" ChangeDateTime="10/07/2021 00:28:31">
+    <Property Name="ElementName" Value="[dbo].[TipoIdentificacion].[IdTipoIdentificacion]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TipoIdentificacion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdPersona" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6f942d24-42c7-467f-a4f2-7bff9bf8be82" ChangeDateTime="10/07/2021 00:29:59">
+    <Property Name="ElementName" Value="[dbo].[TipoIdentificacion].[IdPersona]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TipoIdentificacion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdTipoIdentificacion " />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fd5fc518-035d-4dfa-a48c-6f4a62b9a2e3" ChangeDateTime="10/07/2021 00:30:09">
+    <Property Name="ElementName" Value="[exp].[Persona].[IdTipoIdentificacion ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[exp].[Persona]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdPersona" />
+  </Operation>
+</Operations>
